@@ -105,4 +105,4 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 Este projeto esta sobe a licença MIT. Veja a [LICENÇA](./LICENSE) para saber mais.
 <br>
-👋🏽 [Entre em contato!](https://www.linkedin.com/in/henrique-luís-oliveira-marques-3406361a7/)
+👋🏽 [Entre em contato!](https://www.linkedin.com/in/glaulher-medeiros-03799967/)
