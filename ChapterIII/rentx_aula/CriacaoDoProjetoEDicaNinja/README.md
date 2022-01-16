@@ -68,9 +68,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ## 🧑 Autor
 
-<div style="border-radius: 50%;">
-<img  src="https://glaulher.github.io/assets/img/sample/avatar.jpeg" width="150px;" alt=""/>
-</div>
+<img style="border-radius: 50px;" src="https://glaulher.github.io/assets/img/sample/avatar.jpeg" width="150px;" alt=""/>
  <h4>Glaulher Medeiros</h4>
 
 <p align="left">
