@@ -56,14 +56,14 @@ $ yarn web
 ---
 ✔️ Notas:
 
-- Criação de Snippets no vscode:
-  - Entrar em User Snippets-
+Criação de Snippets no vscode
+  - Entrar em User Snippets:
 
 <p align="center" >
   <img align="center" src="https://imgur.com/nNO6FI7.png" width="300" />
 </p>
 
-
+  - Entrar em react-native-snippets.code-snippets (global):
 
 <p align="center" >
   <img align="center" src="https://imgur.com/rY1e9GP.png" width="400" />
