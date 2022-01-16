@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center" >
-  <img alt="Repository size" src="https://img.shields.io/badge/Mobile-react--native-green?style=for-the-badge">
+  <img alt="Repository size" src="https://img.shields.io/badge/Mobile-react--native-blue?style=for-the-badge">
 
   <img alt="Repository size" src="https://img.shields.io/npm/types/typescript?style=for-the-badge">
 
@@ -20,7 +20,7 @@
 
 ## 📋 Sobre
 
-Desafio Complementar, Chapter 02, Ignite (Rocketseat) - React Native.
+<img align="center" src="https://d33wubrfki0l68.cloudfront.net/554c3b0e09cf167f0281fda839a5433f2040b349/ecfc9/img/header_logo.svg" width="22" /> Aula Criação do Projeto e Dica Ninja , Chapter 03, Ignite (Rocketseat) - React Native.
 
 ---
 
@@ -32,10 +32,10 @@ Para clonar e executar este aplicativo, você precisará de [Git](https://git-sc
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/HMDarkFir3/Ignite_Challenge-02_Chapter-02.git
+$ git clone https://github.com/glaulher/react-native_Ignite.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd Ignite_Challenge-02_Chapter-02
+$ cd react-native_Ignite/ChapterIII/rentx_aula/CriacaoDoProjetoEDicaNinja/rentx/
 ```
 
 ### 🎲 Rodando a Aplicação
@@ -46,20 +46,11 @@ $ yarn install ou npm install
 
 # Execute a Aplicação em Desenvolvimento
 
-# Se está utilizando o emulador do Android, rode
-$ yarn android ou npm android
+# Se está utilizando o emulador, rode
+$ yarn start
 
-# Se está utilizando o emulador do IOS, rode
-yarn ios ou npm ios
-```
-
-### 📁 Configuração .ENV
-
-```bash
-#adicionado .env.example no projeto, lembrar de adicionar as variáveis de ambiente conforme o exemplo
-
-# Twitch OAuth
-CLIENT_ID=
+# Se está utilizando o aparelho físico, rode
+$ yarn web
 ```
 
 ---
@@ -71,26 +62,9 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - [React Native](https://reactnative.dev)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [TypeScript](https://www.typescriptlang.org)
-- [React Navigation](https://reactnavigation.org)
-- [axios](https://github.com/axios/axios)
-- [styled-components](https://styled-components.com)
-- [@expo-google-fonts/dm-sans](https://fonts.google.com/specimen/DM+Sans?query=dm)
 
 ---
 
-## 💪 Como contribuir para o projeto
-
-1. Faça um **fork** do projeto.
-
-2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
-
-3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
-
-4. Envie as suas alterações: `git push origin my-feature`
-   
-   > Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](https://github.com/firstcontributions/first-contributions)
-
----
 
 ## 🧑 Autor
 
@@ -99,12 +73,15 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 <p align="left">
   <a href="https://www.linkedin.com/in/glaulher-medeiros-03799967/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+
+  <a href="https://glaulher.github.io/" target="_blank"><img src="https://img.shields.io/badge/github.io-gray?style=for-the-badge&logo=github&logoColor=white"></a>
+
+  <a href="https://terminaldopenguin.blogspot.com/" target="_blank"><img src="https://img.shields.io/badge/blog-orange?style=for-the-badge&logo=blogger&logoColor=white"></a>
 <p>
 
 ---
 
 ## 📝 Licença
 
-Este projeto esta sobe a licença MIT. Veja a [LICENÇA](./LICENSE) para saber mais.
+Este projeto esta sobe a licença MIT. Veja a [LICENÇA](https://github.com/glaulher/react-native_Ignite/blob/main/LICENSE) para saber mais.
 <br>
-👋🏽 [Entre em contato!](https://www.linkedin.com/in/glaulher-medeiros-03799967/)
