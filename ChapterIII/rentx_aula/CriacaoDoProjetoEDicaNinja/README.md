@@ -54,7 +54,60 @@ $ yarn web
 ```
 
 ---
+✔️ Notas:
 
+- Criação de Snippets no vscode:
+  - Entrar em User Snippets-
+
+<p align="center" >
+  <img align="center" src="https://imgur.com/nNO6FI7.png" width="300" />
+</p>
+
+
+
+<p align="center" >
+  <img align="center" src="https://imgur.com/rY1e9GP.png" width="400" />
+</p>
+
+```bash
+# Snippets são atalhos para execução de templates 
+# pré definidos de bloco de notas, segue abaixo exemplo de
+#Snippets:
+{
+	"Basic React Native Interface": {
+		"prefix": "rnc",
+		"body": [
+			"import React from 'react';",
+			"",
+			"import {",
+			"  Container",
+			"} from './styles';",
+			"",
+			"export const ${TM_DIRECTORY/^.+\\/(.*)$/$1/} = () => {",
+			"return (",
+			"  <Container>",
+			"",
+			"  </Container>",
+			" );",
+			"}"
+		],
+		"description": "Basic React Native Interface With Styled Component"
+	},
+
+	"Basic React Native Styled Component":{
+		"prefix": "rns",
+		"body": [
+			"import styled from 'styled-components/native';",
+			"",
+			"export const Container = styled.View`",
+			"  flex: 1;",
+			"`;"
+		],
+		"description": "Basic Styled Component for React Native"
+	}
+}
+
+```
 ## 🚀 Tecnologias Utilizadas
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
