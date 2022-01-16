@@ -1,5 +1,5 @@
 <p align="center" >
-  <img align="center" src="./src/assets/images/logo.svg" width="270" />
+  <img align="center" src="https://d33wubrfki0l68.cloudfront.net/554c3b0e09cf167f0281fda839a5433f2040b349/ecfc9/img/header_logo.svg" width="100" />
 </p>
 
 <h1 align="center">
@@ -7,11 +7,13 @@
 </h1>
 
 <p align="center" >
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/hmdarkfir3/ignite-template-react-native-github-explorer?style=for-the-badge">
+  <img alt="Repository size" src="https://img.shields.io/badge/Mobile-react--native-green?style=for-the-badge">
 
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/hmdarkfir3/ignite-template-react-native-github-explorer?style=for-the-badge">
+  <img alt="Repository size" src="https://img.shields.io/npm/types/typescript?style=for-the-badge">
 
-<img alt="License" src="https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge" />
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/glaulher/react-native_Ignite?style=for-the-badge">
+
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge" />
 </p>
 
 ---
