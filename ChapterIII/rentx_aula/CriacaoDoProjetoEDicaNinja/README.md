@@ -81,10 +81,12 @@ Criação de Snippets no vscode
   <img align="center" src="https://github.com/glaulher/react-native_Ignite/blob/main/ChapterIII/rentx_aula/image/rY1e9GP.png" width="420" />
 </p>
 
+>Snippets, são atalhos para execução de templates
+>pré definidos de bloco de código,
+>segue abaixo exemplo de
+>Snippets:
+
 ```bash
-# Snippets, são atalhos para execução de templates 
-# pré definidos de bloco de código, segue abaixo exemplo de
-#Snippets:
 {
 	"Basic React Native Interface": {
 		"prefix": "rnc",
