@@ -38,6 +38,18 @@ $ git clone https://github.com/glaulher/react-native_Ignite.git
 $ cd react-native_Ignite/ChapterIII/rentx_aula/CriacaoDoProjetoEDicaNinja/rentx/
 ```
 
+### ⏬ Ou instalando pacotes e criando o Projeto
+
+```bash
+$ expo init rentx  
+
+$ cd rentx  
+
+$ yarn add styled-components
+
+$ yarn add @types/styled-components-react-native -D 
+
+```
 ### 🎲 Rodando a Aplicação
 
 ```bash
