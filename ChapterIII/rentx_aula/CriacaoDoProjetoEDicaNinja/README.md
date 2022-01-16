@@ -68,10 +68,10 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ## 🧑 Autor
 
-<img style="border-radius: 50%;" src="#" width="150px;" alt=""/>
- <h4>Glaulher Ramalho Medeiros</h4>
+<img style="border-radius: 50%;" src="https://glaulher.github.io/assets/img/sample/avatar.jpeg" width="150px;" alt=""/>
+ <h4>Glaulher Medeiros</h4>
 
-<p align="center">
+<p align="left">
 <span style="inline-block;">
   <a href="https://www.linkedin.com/in/glaulher-medeiros-03799967/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" ></a>
 </span>
