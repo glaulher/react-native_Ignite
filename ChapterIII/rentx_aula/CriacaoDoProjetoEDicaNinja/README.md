@@ -70,8 +70,8 @@ Criação de Snippets no vscode
 </p>
 
 ```bash
-# Snippets são atalhos para execução de templates 
-# pré definidos de bloco de notas, segue abaixo exemplo de
+# Snippets, são atalhos para execução de templates 
+# pré definidos de bloco de código, segue abaixo exemplo de
 #Snippets:
 {
 	"Basic React Native Interface": {
