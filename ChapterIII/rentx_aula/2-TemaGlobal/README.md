@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center"> 
-  🚀 Criação do Projeto e Dica Ninja🚀
+  🚀 Tema Global e Instalação das Fontes🚀
 </h1>
 
 <p align="center" >
@@ -35,7 +35,7 @@ Para clonar e executar este aplicativo, você precisará de [Git](https://git-sc
 $ git clone https://github.com/glaulher/react-native_Ignite.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd react-native_Ignite/ChapterIII/rentx_aula/CriacaoDoProjetoEDicaNinja/rentx/
+$ cd react-native_Ignite/ChapterIII/rentx_aula/2-TemaGlobal/rentx/
 ```
 
 ### ⏬ Ou instalando pacotes e criando o Projeto
@@ -48,6 +48,13 @@ $ cd rentx
 $ yarn add styled-components
 
 $ yarn add @types/styled-components-react-native -D 
+
+# Para instalar as fontes no projeto.
+$ expo install expo-font @expo-google-fonts/inter @expo-google-fonts/archivo
+
+# Para que  projeto espere o carregamento das fontes,
+# para só depois disso, poder carregar a tela.
+$ expo install expo-app-loading
 
 ```
 ### 🎲 Rodando a Aplicação
@@ -68,64 +75,115 @@ $ yarn web
 ---
 ✔️ Notas:
 
-Criação de Snippets no vscode
-  - Entrar em User Snippets:
+Para instalar as fontes foi seguido a documentação:
+- [expo fonts](https://docs.expo.dev/guides/using-custom-fonts/)
 
-<p align="center" >
-  <img align="center" src="https://github.com/glaulher/react-native_Ignite/blob/main/ChapterIII/rentx_aula/image/nNO6FI7.png" width="320" />
-</p>
+Foi inserida as alterações no arquivo App.tsx,
+centralizando assim as modificações.
 
-  - Entrar em react-native-snippets.code-snippets (global):
+Para o tema global foi criada uma pasta styles e 2 arquivos dentro dela:
 
-<p align="center" >
-  <img align="center" src="https://github.com/glaulher/react-native_Ignite/blob/main/ChapterIII/rentx_aula/image/rY1e9GP.png" width="420" />
-</p>
+styled.d.ts:
 
->Snippets, são atalhos para execução de templates
->pré definidos de bloco de código,
->segue abaixo exemplo de
->Snippets:
+OBS - Com a criação desse arquivo, o styled-components reconhece os tipos em theme.ts.
 
-```bash
-{
-	"Basic React Native Interface": {
-		"prefix": "rnc",
-		"body": [
-			"import React from 'react';",
-			"",
-			"import {",
-			"  Container",
-			"} from './styles';",
-			"",
-			"export const ${TM_DIRECTORY/^.+\\/(.*)$/$1/} = () => {",
-			"return (",
-			"  <Container>",
-			"",
-			"  </Container>",
-			" );",
-			"}"
-		],
-		"description": "Basic React Native Interface With Styled Component"
-	},
+```javascript
+import 'styled-components';
 
-	"Basic React Native Styled Component":{
-		"prefix": "rns",
-		"body": [
-			"import styled from 'styled-components/native';",
-			"",
-			"export const Container = styled.View`",
-			"  flex: 1;",
-			"`;"
-		],
-		"description": "Basic Styled Component for React Native"
-	}
+import theme from './theme';
+
+declare module 'styled-components' {
+  type ThemeType = typeof theme;
+
+  export interface DefaultTheme extends ThemeType {}
 }
 
 ```
+
+theme.ts
+
+
+```javascript
+export default {
+  colors: {
+    header: '#1B1B1F',
+
+    background_primary: '#F4F5F6',
+    background_secundary: '#FFFFFF',
+
+    text: '#7A7A80',
+    text_detail: '#AEAEB3',
+    title: '#47474D',
+
+    line: '#EBEBF0',
+
+    main: '#DC1637',
+    main_light: '#FDEDEF',
+    success: '#03B252',
+
+    shape: '#E1E1E8',
+    shape_dark: '#29292E',
+  },
+
+  fonts: {
+    primary_400: 'Inter_400Regular',
+    primary_500: 'Inter_500Medium',
+
+    secundary_400: 'Archivo_400Regular',
+    secundary_500: 'Archivo_500Medium',
+    secundary_600: 'Archivo_600SemiBold',
+  },
+};
+
+```
+
+Em App.tsx foi importado o theme e adicionando em ThemeProvider envolvendo o component conforme abaixo:
+
+```javascript
+import React from 'react';
+import AppLoading from 'expo-app-loading';
+import { ThemeProvider } from 'styled-components';
+
+import {
+  useFonts,
+  Inter_400Regular,
+  Inter_500Medium,
+} from '@expo-google-fonts/inter';
+
+import {
+  Archivo_400Regular,
+  Archivo_500Medium,
+  Archivo_600SemiBold,
+} from '@expo-google-fonts/archivo';
+
+import { Home } from './src/screens/Home';
+import theme from './src/styles/theme';
+
+export default function App() {
+  const [fontsLoaded] = useFonts({
+    Inter_400Regular,
+    Inter_500Medium,
+    Archivo_400Regular,
+    Archivo_500Medium,
+    Archivo_600SemiBold,
+  });
+  if (!fontsLoaded) return <AppLoading />;
+
+  return (
+    <ThemeProvider theme={theme}>
+      <Home />
+    </ThemeProvider>
+  );
+}
+
+```
+
+
 ## 🚀 Tecnologias Utilizadas
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
+- [expo](https://docs.expo.dev/)
 - [React Native](https://reactnative.dev)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [TypeScript](https://www.typescriptlang.org)
@@ -157,15 +215,3 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 Este projeto esta sobe a licença MIT. Veja a [LICENÇA](https://github.com/glaulher/react-native_Ignite/blob/main/LICENSE) para saber mais.
 <br>
-
-alterado o App.tsx
-
-exemplo de uso
-
-https://docs.expo.dev/guides/using-custom-fonts/
-
-instalar as fonts para
-
-expo install expo-font @expo-google-fonts/inter @expo-google-fonts/archivo
-
-expo install expo-app-loading

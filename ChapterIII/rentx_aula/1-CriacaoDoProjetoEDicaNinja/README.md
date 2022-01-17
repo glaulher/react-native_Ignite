@@ -35,7 +35,7 @@ Para clonar e executar este aplicativo, você precisará de [Git](https://git-sc
 $ git clone https://github.com/glaulher/react-native_Ignite.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd react-native_Ignite/ChapterIII/rentx_aula/CriacaoDoProjetoEDicaNinja/rentx/
+$ cd react-native_Ignite/ChapterIII/rentx_aula/1-CriacaoDoProjetoEDicaNinja/rentx/
 ```
 
 ### ⏬ Ou instalando pacotes e criando o Projeto
@@ -126,6 +126,7 @@ Criação de Snippets no vscode
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
+- [expo](https://docs.expo.dev/)
 - [React Native](https://reactnative.dev)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [TypeScript](https://www.typescriptlang.org)
