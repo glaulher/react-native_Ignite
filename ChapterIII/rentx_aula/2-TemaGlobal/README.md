@@ -137,7 +137,7 @@ export default {
 
 ```
 
-Em App.tsx foi importado o theme e adicionando em ThemeProvider envolvendo o component conforme abaixo:
+Em App.tsx, foi importado o theme e adicionado em ThemeProvider, envolvendo o component conforme abaixo:
 
 ```javascript
 import React from 'react';
