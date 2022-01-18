@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center"> 
-  🚀 Tema Global e Instalação das Fontes🚀
+  🚀 Criação do Header da Home🚀
 </h1>
 
 <p align="center" >
@@ -20,7 +20,7 @@
 
 ## 📋 Sobre
 
-<img align="center" src="https://d33wubrfki0l68.cloudfront.net/554c3b0e09cf167f0281fda839a5433f2040b349/ecfc9/img/header_logo.svg" width="22" /> Aula Tema Global e Instalação das Fontes, Chapter 03, Ignite (Rocketseat) - React Native.
+<img align="center" src="https://d33wubrfki0l68.cloudfront.net/554c3b0e09cf167f0281fda839a5433f2040b349/ecfc9/img/header_logo.svg" width="22" /> Aula Criação do Header da Home, Chapter 03, Ignite (Rocketseat) - React Native.
 
 ---
 
@@ -56,6 +56,15 @@ $ expo install expo-font @expo-google-fonts/inter @expo-google-fonts/archivo
 # para só depois disso, poder carregar a tela.
 $ expo install expo-app-loading
 
+# para o react-native possa suportar o svg:
+$ expo install react-native-svg
+
+# Para o react native usar o svg como componente:
+$ yarn add -D react-native-svg-transformer
+
+# Biblioteca pra lidar melhor com proporções:
+$ yarn add react-native-responsive-fontsize 
+
 ```
 ### 🎲 Rodando a Aplicação
 
@@ -75,104 +84,90 @@ $ yarn web
 ---
 ✔️ Notas:
 
-Para instalar as fontes foi seguido a documentação:
-- [expo fonts](https://docs.expo.dev/guides/using-custom-fonts/)
+Instalando o react-native-svg e o react-native-svg-transformer, será necessário tipar o svg(para arquivos png também é necessário, porém é mais simples).
 
-Foi inserida as alterações no arquivo App.tsx,
-centralizando assim as modificações.
+Documento sobre a tipagem do svg:
+- [react-native-svg-transformer](https://github.com/kristerkari/react-native-svg-transformer#using-typescript)
 
-Para o tema global foi criada uma pasta styles e 2 arquivos dentro dela:
 
-styled.d.ts:
+Será criada uma pasta @types na src,
+dentro, criada a pasta svg com um arquivo index.d.ts.
 
-OBS - Com a criação desse arquivo, o styled-components reconhece os tipos em theme.ts.
+conteúdo do index.d.ts:
 
 ```javascript
-import 'styled-components';
+declare module '*.svg' {
+  import React from 'react';
+  import { SvgProps } from 'react-native-svg';
 
-import theme from './theme';
-
-declare module 'styled-components' {
-  type ThemeType = typeof theme;
-
-  export interface DefaultTheme extends ThemeType {}
+  const content: React.FC<SvgProps>;
+  export default content;
 }
-
 ```
+Será criada uma pasta @types na src,
+dentro, criada a pasta png com um arquivo index.d.ts.
 
-theme.ts
+conteúdo do index.d.ts(bem mais simples para png 🤩):
+
+```javascript
+declare module '*.png'
+```
+Para o react-native-svg-transformer será necessário ainda, alterar o metro.config.js.
+
+Documento sobre alteração do metro.config.js:
+
+- [react-native-svg-transformer](https://github.com/kristerkari/react-native-svg-transformer#step-3-configure-the-react-native-packager)
 
 
 ```javascript
-export default {
-  colors: {
-    header: '#1B1B1F',
+const { getDefaultConfig } = require('expo/metro-config');
 
-    background_primary: '#F4F5F6',
-    background_secundary: '#FFFFFF',
+module.exports = (() => {
+  const config = getDefaultConfig(__dirname);
 
-    text: '#7A7A80',
-    text_detail: '#AEAEB3',
-    title: '#47474D',
+  const { transformer, resolver } = config;
 
-    line: '#EBEBF0',
+  config.transformer = {
+    ...transformer,
+    babelTransformerPath: require.resolve("react-native-svg-transformer"),
+  };
+  config.resolver = {
+    ...resolver,
+    assetExts: resolver.assetExts.filter((ext) => ext !== "svg"),
+    sourceExts: [...resolver.sourceExts, "svg"],
+  };
 
-    main: '#DC1637',
-    main_light: '#FDEDEF',
-    success: '#03B252',
-
-    shape: '#E1E1E8',
-    shape_dark: '#29292E',
-  },
-
-  fonts: {
-    primary_400: 'Inter_400Regular',
-    primary_500: 'Inter_500Medium',
-
-    secundary_400: 'Archivo_400Regular',
-    secundary_500: 'Archivo_500Medium',
-    secundary_600: 'Archivo_600SemiBold',
-  },
-};
-
+  return config;
+})();
 ```
-
-Em App.tsx, foi importado o theme e adicionado em ThemeProvider, envolvendo o component conforme abaixo:
+Agora svg pode ser importado como componente.
+- Exemplo:
 
 ```javascript
 import React from 'react';
-import AppLoading from 'expo-app-loading';
-import { ThemeProvider } from 'styled-components';
+import { StatusBar } from 'react-native';
+import { RFValue } from 'react-native-responsive-fontsize';
 
-import {
-  useFonts,
-  Inter_400Regular,
-  Inter_500Medium,
-} from '@expo-google-fonts/inter';
+//Logo arquivo svg como componente
+import Logo from '../../assets/logo.svg';
 
-import {
-  Archivo_400Regular,
-  Archivo_500Medium,
-  Archivo_600SemiBold,
-} from '@expo-google-fonts/archivo';
+import { Container, Header, HeaderContent, TotalCars } from './styles';
 
-import { Home } from './src/screens/Home';
-import theme from './src/styles/theme';
-
-export default function App() {
-  const [fontsLoaded] = useFonts({
-    Inter_400Regular,
-    Inter_500Medium,
-    Archivo_400Regular,
-    Archivo_500Medium,
-    Archivo_600SemiBold,
-  });
-  if (!fontsLoaded) return <AppLoading />;
-
+export function Home() {
   return (
-    <ThemeProvider theme={theme}>
-      <Home />
-    </ThemeProvider>
+    <Container>
+      <StatusBar
+        barStyle="light-content"
+        backgroundColor="transparent"
+        translucent
+      />
+      <Header>
+        <HeaderContent>
+          <Logo width={RFValue(108)} height={RFValue(12)} />
+          <TotalCars>Total de 12 carros</TotalCars>
+        </HeaderContent>
+      </Header>
+    </Container>
   );
 }
 
