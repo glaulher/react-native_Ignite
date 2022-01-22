@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center"> 
-  🚀 Criação do Card Car🚀
+  🚀 Interface de Detalhes dos Carros🚀
 </h1>
 
 <p align="center" >
@@ -20,7 +20,7 @@
 
 ## 📋 Sobre
 
-<img align="center" src="https://d33wubrfki0l68.cloudfront.net/554c3b0e09cf167f0281fda839a5433f2040b349/ecfc9/img/header_logo.svg" width="22" /> Aula Criação do Card Car, Chapter 03, Ignite (Rocketseat) - React Native.
+<img align="center" src="https://d33wubrfki0l68.cloudfront.net/554c3b0e09cf167f0281fda839a5433f2040b349/ecfc9/img/header_logo.svg" width="22" /> Aula Interface de Detalhes dos Carros, Chapter 03, Ignite (Rocketseat) - React Native.
 
 ---
 
@@ -65,6 +65,11 @@ $ yarn add -D react-native-svg-transformer
 # Biblioteca pra lidar melhor com proporções:
 $ yarn add react-native-responsive-fontsize 
 
+# Biblioteca para botões como BorderlessButton
+$ expo install react-native-gesture-handler
+
+# Lida com as animações nos Botões VER NOTAS
+$ expo install react-native-reanimated 
 ```
 ### 🎲 Rodando a Aplicação
 
@@ -77,16 +82,39 @@ $ yarn install ou npm install
 # Se está utilizando o emulador, rode
 $ yarn start
 
-# Se está utilizando o aparelho físico, rode
+# Se está utilizando o aparelho físico escaneie o QRcode, rode
 $ yarn web
 ```
 
 ---
 ✔️ Notas:
 
-- É regra no react-native o componente começar com letra maiúscula.
+- alguns componentes nativos do react-native são usados um pouco diferente no styled components,
+Exemplo:
 
-- resizeMode="contain" ajusta a imagem para não ficar cortada em <CarImage /> (Image).
+```javascript
+export const CarList = styled(FlatList).attrs({
+  contentContainerStyle: {
+    padding: 24,
+  },
+  showsVerticalScrollIndicator: false,
+})``;
+``` 
+
+- Para as animações é necessário editar o babel.config.js e adicionar o plugin.
+
+exemplo:
+
+```javascript
+module.exports = function(api) {
+  api.cache(true);
+  return {
+    presets: ['babel-preset-expo'],
+    plugins: ['react-native-reanimated/plugin'],
+  };
+};
+
+```
 
 
 ## 🚀 Tecnologias Utilizadas
@@ -124,4 +152,3 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 ## 📝 Licença
 
 Este projeto esta sobe a licença MIT. Veja a [LICENÇA](https://github.com/glaulher/react-native_Ignite/blob/main/LICENSE) para saber mais.
-<br>
