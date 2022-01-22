@@ -79,11 +79,8 @@ $ yarn install ou npm install
 
 # Execute a Aplicação em Desenvolvimento
 
-# Se está utilizando o emulador, rode
-$ yarn start
-
-# Se está utilizando o aparelho físico escaneie o QRcode, rode
-$ yarn web
+# Execute o expo
+$ expo start
 ```
 
 ---
