@@ -77,8 +77,6 @@ $ expo install react-native-reanimated
 # Instale as dependências
 $ yarn install ou npm install
 
-# Execute a Aplicação em Desenvolvimento
-
 # Execute o expo
 $ expo start
 ```

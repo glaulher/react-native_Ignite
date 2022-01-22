@@ -63,8 +63,6 @@ $ expo install expo-app-loading
 # Instale as dependências
 $ yarn install ou npm install
 
-# Execute a Aplicação em Desenvolvimento
-
 # Execute o expo
 $ expo start
 ```

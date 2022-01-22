@@ -56,8 +56,6 @@ $ yarn add @types/styled-components-react-native -D
 # Instale as dependências
 $ yarn install ou npm install
 
-# Execute a Aplicação em Desenvolvimento
-
 # Execute o expo
 $ expo start
 ```
