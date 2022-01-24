@@ -35,7 +35,7 @@ Para clonar e executar este aplicativo, você precisará de [Git](https://git-sc
 $ git clone https://github.com/glaulher/react-native_Ignite.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd react-native_Ignite/ChapterIII/rentx_aula/2-TemaGlobal/rentx/
+$ cd react-native_Ignite/ChapterIII/rentx_aula/5-interfaceDeDetalhesDosCarros/rentx/
 ```
 
 ### ⏬ Ou instalando pacotes e criando o Projeto
