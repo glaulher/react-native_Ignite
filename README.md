@@ -43,93 +43,28 @@ Em construção...
 <summary>Chapter III</summary>
 <br>
 <a href="https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/1-CriacaoDoProjetoEDicaNinja" target="_blank">1-CriacaoDoProjetoEDicaNinja</a>
+
+
+<a href="https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/2-TemaGlobal" target="_blank">2-TemaGlobal</a>
+
+<a href="https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/3-CriacaoDoHeaderDaHome" target="_blank">3-CriacaoDoHeaderDaHome</a>
+
+<a href="https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/4-CriacaoDeCardCar" target="_blank">4-CriacaoDeCardCarl</a>
+
+<a href="https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/5-interfaceDeDetalhesDosCarros" target="_blank">5-interfaceDeDetalhesDosCarros</a>
+
+<a href="https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/6-ComponenteDeSlider" target="_blank">6-ComponenteDeSlider</a>
+
+<a href="https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/7-ContinuandoInterfaceDeDetalhes" target="_blank">7-ContinuandoInterfaceDeDetalhes</a>
+
+<a href="https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/8-ComponenteDeAcessorios" target="_blank">8-ComponenteDeAcessorios</a>
+
+<a href="https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/9-ComponenteDeBotao" target="_blank">9-ComponenteDeBotao</a>
+
 </details>
 
----
-## 📂 Como rodar este projeto
-
-Para clonar e executar este aplicativo, você precisará de [Git](https://git-scm.com), [NodeJs](https://nodejs.org/en/) e [Android Studio](https://developer.android.com/studio) Instalado em seu computador.
-
-### 🌀 Clonando o repositório
-
-```bash
-# Clone este repositório
-$ git clone https://github.com/glaulher/react-native_Ignite.git
-
-# Acesse a pasta do projeto no terminal/cmd
-$ cd react-native_Ignite/ChapterIII/rentx_aula/8-ComponenteDeAcessorios/rentx/
-```
-
-### ⏬ Ou instalando pacotes e criando o Projeto
-
-```bash
-$ expo init rentx  
-
-$ cd rentx  
-
-$ yarn add styled-components
-
-$ yarn add @types/styled-components-react-native -D 
-
-# Para instalar as fontes no projeto.
-$ expo install expo-font @expo-google-fonts/inter @expo-google-fonts/archivo
-
-# Para que  projeto espere o carregamento das fontes,
-# para só depois disso, poder carregar a tela.
-$ expo install expo-app-loading
-
-# para o react-native possa suportar o svg:
-$ expo install react-native-svg
-
-# Para o react native usar o svg como componente:
-$ yarn add -D react-native-svg-transformer
-
-# Biblioteca pra lidar melhor com proporções:
-$ yarn add react-native-responsive-fontsize 
-
-# Biblioteca para botões como BorderlessButton
-$ expo install react-native-gesture-handler
-
-# Lida com as animações nos Botões VER NOTAS
-$ expo install react-native-reanimated 
-
-# Lida com detalhes sobre o design da tela do iphone, dando o espaçamento correto.
-$ yarn add react-native-iphone-x-helper  
-```
-### 🎲 Rodando a Aplicação
-
-```bash
-# Instale as dependências
-$ yarn install ou npm install
-
-# Execute o expo
-$ expo start
-```
 
 ---
-✔️ Notas:
-
-- Para as animações é necessário editar o babel.config.js e adicionar o plugin.
-
-exemplo:
-
-```javascript
-module.exports = function(api) {
-  api.cache(true);
-  return {
-    presets: ['babel-preset-expo'],
-    plugins: ['react-native-reanimated/plugin'],
-  };
-};
-
-```
-- Dica, quando tudo não dá um uma linha e some da tela, a estilização wrap  passa para a linha de baixo.
-  
-Exemplo:
-
-```javascript
-flex-wrap: wrap;
-```
 
 ## 🚀 Tecnologias Utilizadas
 
