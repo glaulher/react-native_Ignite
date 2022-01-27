@@ -42,24 +42,24 @@ Em construção...
 <details>
 <summary>Chapter III</summary>
 <br>
-<a href="https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/1-CriacaoDoProjetoEDicaNinja" target="_blank">1-CriacaoDoProjetoEDicaNinja</a>
 
+[1-CriacaoDoProjetoEDicaNinja](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/1-CriacaoDoProjetoEDicaNinja)
 
-<a href="https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/2-TemaGlobal" target="_blank">2-TemaGlobal</a>
+[2-TemaGlobal](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/2-TemaGlobal)
 
-<a href="https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/3-CriacaoDoHeaderDaHome" target="_blank">3-CriacaoDoHeaderDaHome</a>
+[3-CriacaoDoHeaderDaHome](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/3-CriacaoDoHeaderDaHome)
 
-<a href="https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/4-CriacaoDeCardCar" target="_blank">4-CriacaoDeCardCarl</a>
+[4-CriacaoDeCardCar](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/4-CriacaoDeCardCar)
 
-<a href="https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/5-interfaceDeDetalhesDosCarros" target="_blank">5-interfaceDeDetalhesDosCarros</a>
+[5-interfaceDeDetalhesDosCarros](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/5-interfaceDeDetalhesDosCarros)
 
-<a href="https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/6-ComponenteDeSlider" target="_blank">6-ComponenteDeSlider</a>
+[6-ComponenteDeSlider](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/6-ComponenteDeSlider)
 
-<a href="https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/7-ContinuandoInterfaceDeDetalhes" target="_blank">7-ContinuandoInterfaceDeDetalhes</a>
+[7-ContinuandoInterfaceDeDetalhes](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/7-ContinuandoInterfaceDeDetalhes)
 
-<a href="https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/8-ComponenteDeAcessorios" target="_blank">8-ComponenteDeAcessorios</a>
+[8-ComponenteDeAcessorios](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/8-ComponenteDeAcessorios)
 
-<a href="https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/9-ComponenteDeBotao" target="_blank">9-ComponenteDeBotao</a>
+[9-ComponenteDeBotao](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/9-ComponenteDeBotao)
 
 </details>
 
