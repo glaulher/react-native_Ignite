@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center"> 
-  🚀Componente de Calendário/🚀
+  🚀Componente de Calendário🚀
 </h1>
 
 <p align="center" >
