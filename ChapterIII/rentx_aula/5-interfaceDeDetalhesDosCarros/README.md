@@ -38,6 +38,18 @@ $ git clone https://github.com/glaulher/react-native_Ignite.git
 $ cd react-native_Ignite/ChapterIII/rentx_aula/5-interfaceDeDetalhesDosCarros/rentx/
 ```
 
+
+### 🎲 Rodando a Aplicação
+
+```bash
+# Instale as dependências
+$ yarn install ou npm install
+
+# Execute o expo
+$ expo start
+```
+
+
 ### ⏬ Ou instalando pacotes e criando o Projeto
 
 ```bash
@@ -71,16 +83,6 @@ $ expo install react-native-gesture-handler
 # Lida com as animações nos Botões VER NOTAS
 $ expo install react-native-reanimated 
 ```
-### 🎲 Rodando a Aplicação
-
-```bash
-# Instale as dependências
-$ yarn install ou npm install
-
-# Execute o expo
-$ expo start
-```
-
 ---
 ✔️ Notas:
 

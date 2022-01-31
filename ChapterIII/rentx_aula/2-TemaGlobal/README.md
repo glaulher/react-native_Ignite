@@ -38,6 +38,17 @@ $ git clone https://github.com/glaulher/react-native_Ignite.git
 $ cd react-native_Ignite/ChapterIII/rentx_aula/2-TemaGlobal/rentx/
 ```
 
+### 🎲 Rodando a Aplicação
+
+```bash
+# Instale as dependências
+$ yarn install ou npm install
+
+# Execute o expo
+$ expo start
+```
+
+
 ### ⏬ Ou instalando pacotes e criando o Projeto
 
 ```bash
@@ -57,16 +68,6 @@ $ expo install expo-font @expo-google-fonts/inter @expo-google-fonts/archivo
 $ expo install expo-app-loading
 
 ```
-### 🎲 Rodando a Aplicação
-
-```bash
-# Instale as dependências
-$ yarn install ou npm install
-
-# Execute o expo
-$ expo start
-```
-
 ---
 ✔️ Notas:
 

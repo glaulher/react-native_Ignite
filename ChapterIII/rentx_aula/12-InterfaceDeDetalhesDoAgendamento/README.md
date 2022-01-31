@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center"> 
-  🚀 Criação do Header da Home🚀
+  🚀Interface de Detalhes do Agendamento🚀
 </h1>
 
 <p align="center" >
@@ -20,7 +20,7 @@
 
 ## 📋 Sobre
 
-<img align="center" src="https://d33wubrfki0l68.cloudfront.net/554c3b0e09cf167f0281fda839a5433f2040b349/ecfc9/img/header_logo.svg" width="22" /> Aula Criação do Header da Home, Chapter 03, Ignite (Rocketseat) - React Native.
+<img align="center" src="https://d33wubrfki0l68.cloudfront.net/554c3b0e09cf167f0281fda839a5433f2040b349/ecfc9/img/header_logo.svg" width="22" /> Aula Interface de Detalhes do Agendamento, Chapter 03, Ignite (Rocketseat) - React Native.
 
 ---
 
@@ -35,9 +35,8 @@ Para clonar e executar este aplicativo, você precisará de [Git](https://git-sc
 $ git clone https://github.com/glaulher/react-native_Ignite.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd react-native_Ignite/ChapterIII/rentx_aula/3-CriacaoDoHeaderDaHome/rentx/
+$ cd react-native_Ignite/ChapterIII/rentx_aula/12-InterfaceDeDetalhesDoAgendamento/rentx/
 ```
-
 
 ### 🎲 Rodando a Aplicação
 
@@ -48,7 +47,6 @@ $ yarn install ou npm install
 # Execute o expo
 $ expo start
 ```
-
 
 ### ⏬ Ou instalando pacotes e criando o Projeto
 
@@ -77,99 +75,38 @@ $ yarn add -D react-native-svg-transformer
 # Biblioteca pra lidar melhor com proporções:
 $ yarn add react-native-responsive-fontsize 
 
+# Biblioteca para botões como BorderlessButton
+$ expo install react-native-gesture-handler
+
+# Lida com as animações nos Botões VER NOTAS
+$ expo install react-native-reanimated 
+
+# Lida com detalhes sobre o design da tela do iphone, dando o espaçamento correto.
+$ yarn add react-native-iphone-x-helper 
+
+# Adiciona o calendário ao projeto.
+$ yarn add react-native-calendars 
+
+# Corrige os tipos para a biblioteca calendars
+$ yarn add @types/react-native-calendars -D
 ```
 ---
 ✔️ Notas:
 
-Instalando o react-native-svg e o react-native-svg-transformer, será necessário tipar o svg(para arquivos png também é necessário, porém é mais simples).
+- Para as animações é necessário editar o babel.config.js e adicionar o plugin.
 
-Documento sobre a tipagem do svg:
-- [react-native-svg-transformer](https://github.com/kristerkari/react-native-svg-transformer#using-typescript)
-
-
-Será criada uma pasta @types na src,
-dentro, criada a pasta svg com um arquivo index.d.ts.
-
-conteúdo do index.d.ts:
+exemplo:
 
 ```javascript
-declare module '*.svg' {
-  import React from 'react';
-  import { SvgProps } from 'react-native-svg';
-
-  const content: React.FC<SvgProps>;
-  export default content;
-}
-```
-Será criada uma pasta @types na src,
-dentro, criada a pasta png com um arquivo index.d.ts.
-
-conteúdo do index.d.ts(bem mais simples para png 🤩):
-
-```javascript
-declare module '*.png'
-```
-Para o react-native-svg-transformer será necessário ainda, alterar o metro.config.js.
-
-Documento sobre alteração do metro.config.js:
-
-- [react-native-svg-transformer](https://github.com/kristerkari/react-native-svg-transformer#step-3-configure-the-react-native-packager)
-
-
-```javascript
-const { getDefaultConfig } = require('expo/metro-config');
-
-module.exports = (() => {
-  const config = getDefaultConfig(__dirname);
-
-  const { transformer, resolver } = config;
-
-  config.transformer = {
-    ...transformer,
-    babelTransformerPath: require.resolve("react-native-svg-transformer"),
+module.exports = function(api) {
+  api.cache(true);
+  return {
+    presets: ['babel-preset-expo'],
+    plugins: ['react-native-reanimated/plugin'],
   };
-  config.resolver = {
-    ...resolver,
-    assetExts: resolver.assetExts.filter((ext) => ext !== "svg"),
-    sourceExts: [...resolver.sourceExts, "svg"],
-  };
-
-  return config;
-})();
-```
-Agora svg pode ser importado como componente.
-- Exemplo:
-
-```javascript
-import React from 'react';
-import { StatusBar } from 'react-native';
-import { RFValue } from 'react-native-responsive-fontsize';
-
-//Logo arquivo svg como componente
-import Logo from '../../assets/logo.svg';
-
-import { Container, Header, HeaderContent, TotalCars } from './styles';
-
-export function Home() {
-  return (
-    <Container>
-      <StatusBar
-        barStyle="light-content"
-        backgroundColor="transparent"
-        translucent
-      />
-      <Header>
-        <HeaderContent>
-          <Logo width={RFValue(108)} height={RFValue(12)} />
-          <TotalCars>Total de 12 carros</TotalCars>
-        </HeaderContent>
-      </Header>
-    </Container>
-  );
-}
+};
 
 ```
-
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -206,4 +143,3 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 ## 📝 Licença
 
 Este projeto esta sobe a licença MIT. Veja a [LICENÇA](https://github.com/glaulher/react-native_Ignite/blob/main/LICENSE) para saber mais.
-<br>

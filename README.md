@@ -65,6 +65,8 @@ Em construção...
 
 [11-ComponenteDeCalendário](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/11-ComponenteDeCalendário)
 
+[12-InterfaceDeDetalhesDoAgendamento](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/12-InterfaceDeDetalhesDoAgendamento)
+
 </details>
 
 

@@ -38,6 +38,18 @@ $ git clone https://github.com/glaulher/react-native_Ignite.git
 $ cd react-native_Ignite/ChapterIII/rentx_aula/11-ComponenteDeCalendário/rentx/
 ```
 
+
+### 🎲 Rodando a Aplicação
+
+```bash
+# Instale as dependências
+$ yarn install ou npm install
+
+# Execute o expo
+$ expo start
+```
+
+
 ### ⏬ Ou instalando pacotes e criando o Projeto
 
 ```bash
@@ -80,16 +92,6 @@ $ yarn add react-native-calendars
 # Corrige os tipos para a biblioteca calendars
 $ yarn add @types/react-native-calendars -D
 ```
-### 🎲 Rodando a Aplicação
-
-```bash
-# Instale as dependências
-$ yarn install ou npm install
-
-# Execute o expo
-$ expo start
-```
-
 ---
 ✔️ Notas:
 

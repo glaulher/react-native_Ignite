@@ -38,6 +38,18 @@ $ git clone https://github.com/glaulher/react-native_Ignite.git
 $ cd react-native_Ignite/ChapterIII/rentx_aula/4-CriacaoDeCardCar/rentx/
 ```
 
+
+### 🎲 Rodando a Aplicação
+
+```bash
+# Instale as dependências
+$ yarn install ou npm install
+
+# Execute o expo
+$ expo start
+```
+
+
 ### ⏬ Ou instalando pacotes e criando o Projeto
 
 ```bash
@@ -66,16 +78,6 @@ $ yarn add -D react-native-svg-transformer
 $ yarn add react-native-responsive-fontsize 
 
 ```
-### 🎲 Rodando a Aplicação
-
-```bash
-# Instale as dependências
-$ yarn install ou npm install
-
-# Execute o expo
-$ expo start
-```
-
 ---
 ✔️ Notas:
 

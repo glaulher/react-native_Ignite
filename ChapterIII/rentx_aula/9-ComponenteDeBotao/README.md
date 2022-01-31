@@ -38,6 +38,18 @@ $ git clone https://github.com/glaulher/react-native_Ignite.git
 $ cd react-native_Ignite/ChapterIII/rentx_aula/9-ComponenteDeBotao/rentx/
 ```
 
+
+### 🎲 Rodando a Aplicação
+
+```bash
+# Instale as dependências
+$ yarn install ou npm install
+
+# Execute o expo
+$ expo start
+```
+
+
 ### ⏬ Ou instalando pacotes e criando o Projeto
 
 ```bash
@@ -74,16 +86,6 @@ $ expo install react-native-reanimated
 # Lida com detalhes sobre o design da tela do iphone, dando o espaçamento correto.
 $ yarn add react-native-iphone-x-helper  
 ```
-### 🎲 Rodando a Aplicação
-
-```bash
-# Instale as dependências
-$ yarn install ou npm install
-
-# Execute o expo
-$ expo start
-```
-
 ---
 ✔️ Notas:
 
