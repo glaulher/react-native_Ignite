@@ -67,6 +67,8 @@ Em construção...
 
 [12-InterfaceDeDetalhesDoAgendamento](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/12-InterfaceDeDetalhesDoAgendamento)
 
+[13-InterfaceDeAgendamentoConcluido](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/13-InterfaceDeAgendamentoConcluido)
+
 </details>
 
 
