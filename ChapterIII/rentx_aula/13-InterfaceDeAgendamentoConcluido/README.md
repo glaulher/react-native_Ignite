@@ -113,7 +113,7 @@ module.exports = function(api) {
 
   - Dimensions - usado fora do componente react, usado no arquivo de estilização por exemplo.
 
-- biblioteca para responsivedade para usar porcentagem no lugar de pixel:
+- biblioteca para responsividade para usar porcentagem no lugar de pixel:
 
 ```shell
 $ yarn add react-native-responsive-screen
