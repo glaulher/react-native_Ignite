@@ -73,6 +73,8 @@ Em construção...
 
 [15-UtilizandoOJsonServer](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/15-UtilizandoOJsonServer)
 
+[16-ListandoCarrosDaApi](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/16-ListandoCarrosDaApi)
+
 </details>
 
 
