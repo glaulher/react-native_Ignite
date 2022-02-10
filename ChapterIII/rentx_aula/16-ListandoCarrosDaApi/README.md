@@ -143,7 +143,7 @@ export interface CarDTO {
   photos: string[];
 }
 ```
-Para uma tipagem dentro de uma flatlist, devemos configurar a mesma no styled-compnent conforme abaixo:
+Para uma tipagem dentro de uma flatlist, devemos configurar a mesma no styled-component conforme abaixo:
 
 ```javascript
 export const CarList = styled(
