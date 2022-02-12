@@ -75,6 +75,8 @@ Em construção...
 
 [16-ListandoCarrosDaApi](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/16-ListandoCarrosDaApi)
 
+[17-passandoDadosEntreTelas](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/17-passandoDadosEntreTelas)
+
 </details>
 
 
