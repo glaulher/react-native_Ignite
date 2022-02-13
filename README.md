@@ -77,6 +77,8 @@ Em construção...
 
 [17-passandoDadosEntreTelas](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/17-passandoDadosEntreTelas)
 
+[18-ExibindoIconesDinamicamente](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/18-ExibindoIconesDinamicamente)
+
 </details>
 
 
