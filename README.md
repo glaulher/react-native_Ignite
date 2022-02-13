@@ -40,7 +40,7 @@ Em construção...
 </details>
 
 <details>
-<summary>Chapter III</summary>
+<summary><span style="color:#58A6FF">Chapter III</span>.</summary>
 <br>
 
 [1-CriacaoDoProjetoEDicaNinja](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/1-CriacaoDoProjetoEDicaNinja)
