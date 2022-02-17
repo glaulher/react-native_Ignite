@@ -79,6 +79,8 @@ Em construção...
 
 [18-ExibindoIconesDinamicamente](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/18-ExibindoIconesDinamicamente)
 
+[19-IntervalosNoCalendario](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/19-IntervalosNoCalendario)
+
 </details>
 
 
