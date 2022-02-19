@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center"> 
-  🚀Finalizando o Calendario🚀
+  🚀Finalizando o Calendário🚀
 </h1>
 
 <p align="center" >
@@ -20,7 +20,7 @@
 
 ## 📋 Sobre
 
-<img align="center" src="https://d33wubrfki0l68.cloudfront.net/554c3b0e09cf167f0281fda839a5433f2040b349/ecfc9/img/header_logo.svg" width="22" /> Aula Finalizando o Calendario, Chapter 03, Ignite (Rocketseat) - React Native.
+<img align="center" src="https://d33wubrfki0l68.cloudfront.net/554c3b0e09cf167f0281fda839a5433f2040b349/ecfc9/img/header_logo.svg" width="22" /> Aula Finalizando o Calendário, Chapter 03, Ignite (Rocketseat) - React Native.
 
 ---
 
@@ -129,9 +129,9 @@ module.exports = function(api) {
  ```javascript
  const endDate = Object.keys(interval)[Object.keys(interval).length - 1];
 ```
-- Para validar verdadeiro/falso se há ou não conteúdo se utliza 2 x !
+- Para validar verdadeiro/falso, se há ou não conteúdo, utilizamos 2 x !
 
-No exemplo abaixo, utilizamos em selected para dizer se era verdadeiro ou falso:
+No exemplo abaixo, utilizamos em selected para dizer se é verdadeiro ou falso:
 
  ```javascript
   <DateValue selected={!!rentalPeriod.endFormatted}>
