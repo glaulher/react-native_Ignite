@@ -81,6 +81,8 @@ Em construção...
 
 [19-IntervalosNoCalendario](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/19-IntervalosNoCalendario)
 
+[20-FinalizandoOCalendario](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/20-FinalizandoOCalendario)
+
 </details>
 
 
