@@ -128,7 +128,7 @@ module.exports = function(api) {
 ```javascript
 export const MyCarsButton = styled(RectButton)`
   ...
-  position: absolute; // coloca o botão em cima, no canto esquerdo automaticamente.
+  position: absolute; // coloca o botão na parte superior, no canto esquerdo automaticamente.
   bottom: 13px; // coloca o botão na parte inferior no canto esquerdo. 
   right: 22px; // Leva o botão para o lado direito da tela.
 `;
