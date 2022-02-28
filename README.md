@@ -83,6 +83,8 @@ Em construção...
 
 [20-FinalizandoOCalendario](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/20-FinalizandoOCalendario)
 
+[21-EnviandoAgendamentoParaApi](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/21-EnviandoAgendamentoParaApi)
+
 </details>
 
 
