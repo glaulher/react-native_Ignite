@@ -123,7 +123,7 @@ module.exports = function(api) {
 };
 
 ```
-- Foi utilizado um botão flutuante nessa aulas
+- Foi utilizado um botão flutuante nessa aula:
 
 ```javascript
 export const MyCarsButton = styled(RectButton)`
