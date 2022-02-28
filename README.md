@@ -85,6 +85,8 @@ Em construção...
 
 [21-EnviandoAgendamentoParaApi](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/21-EnviandoAgendamentoParaApi)
 
+[22-MenuFlutuante](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/22-MenuFlutuante)
+
 </details>
 
 
