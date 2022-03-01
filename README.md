@@ -87,6 +87,8 @@ Em construção...
 
 [22-MenuFlutuante](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/22-MenuFlutuante)
 
+[23-ListandoAgendamentosDoUsuario](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/23-ListandoAgendamentosDoUsuario)
+
 </details>
 
 
