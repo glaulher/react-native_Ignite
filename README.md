@@ -89,6 +89,10 @@ Em construção...
 
 [23-ListandoAgendamentosDoUsuario](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/23-ListandoAgendamentosDoUsuario)
 
+[24-ExibindoCarrosAgendados](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/24-ExibindoCarrosAgendados)
+
+[25-ReaproveitandoOComponenteCar](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/25-ReaproveitandoOComponenteCar)
+
 </details>
 
 
