@@ -93,6 +93,8 @@ Em construção...
 
 [25-ReaproveitandoOComponenteCar](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/25-ReaproveitandoOComponenteCar)
 
+[26-UsabilidadeNoBotao](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/26-UsabilidadeNoBotao)
+
 </details>
 
 
