@@ -95,6 +95,8 @@ Em construção...
 
 [26-UsabilidadeNoBotao](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/26-UsabilidadeNoBotao)
 
+[27-FinalizandoBotao](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/27-FinalizandoBotao)
+
 </details>
 
 
