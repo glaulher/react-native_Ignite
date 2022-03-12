@@ -97,6 +97,8 @@ Em construção...
 
 [27-FinalizandoBotao](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/27-FinalizandoBotao)
 
+[28-IniciandoSlidesDeImagens](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/28-IniciandoSlidesDeImagens)
+
 </details>
 
 
