@@ -99,6 +99,8 @@ Em construção...
 
 [28-IniciandoSlidesDeImagens](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/28-IniciandoSlidesDeImagens)
 
+[29-ObtendoImagemEmFoco](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/29-ObtendoImagemEmFoco)
+
 </details>
 
 
