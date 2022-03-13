@@ -155,6 +155,46 @@ return (
   );
 
 ```
+Método para mostrar 2 itens ao mesmo tempo no slide:
+
+```javascript
+const [imageIndex, setImageIndex] = useState([0, 1]);
+
+const indexChanged = useRef((info: ChangeImageProps) => {
+  if (info.changed[0].isViewable) {
+    setImageIndex(data => {
+      const imageIndexDraft = data.map(item => item);
+      imageIndexDraft.push(info.changed[0].index!)
+
+      return imageIndexDraft;
+    });
+  } else {
+    setImageIndex(data => {
+      const imageIndexDraft = data.filter(item => item !== info.changed[0].index!);
+
+      return imageIndexDraft;
+    });
+  }
+})
+<SliderBullet
+  key={item.id}
+  isFirst={index === 0}
+  active={imageIndex.includes(index)}
+/>
+export const CarImageWrapper = styled.View`
+  width: ${Dimensions.get('window').width/2}px;
+  height: 132px;
+
+  justify-content: center;
+  align-items: center;
+`;
+
+export const CarImage = styled.Image`
+  width: 100%;
+  height: 132px;
+`;
+```
+
 
 ## 🚀 Tecnologias Utilizadas
 
