@@ -140,6 +140,7 @@ export function Scheduling() {
           title="Confirmar"
           onPress={() => handleConfirmRental()}
           enabled={!!rentalPeriod.startFormatted}
+          loading={false}
         />
       </Footer>
     </Container>
