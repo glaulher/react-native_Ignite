@@ -101,6 +101,8 @@ Em construção...
 
 [29-ObtendoImagemEmFoco](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/29-ObtendoImagemEmFoco)
 
+[30-PrimeiraAnimacao](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/30-PrimeiraAnimacao)
+
 </details>
 
 
