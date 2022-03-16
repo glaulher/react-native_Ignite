@@ -103,6 +103,8 @@ Em construção...
 
 [30-PrimeiraAnimacao](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/30-PrimeiraAnimacao)
 
+[31-Transicoes](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/31-Transicoes)
+
 </details>
 
 
