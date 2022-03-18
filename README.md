@@ -105,6 +105,8 @@ Em construção...
 
 [31-Transicoes](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/31-Transicoes)
 
+[32-SplashScreen](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/32-SplashScreen)
+
 </details>
 
 
