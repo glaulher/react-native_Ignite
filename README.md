@@ -107,6 +107,8 @@ Em construção...
 
 [32-SplashScreen](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/32-SplashScreen)
 
+[33-AnimandoSplash](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/33-AnimandoSplash)
+
 </details>
 
 
