@@ -138,7 +138,7 @@ Abra app.json e adicione o seguinte dentro do campo "expo", para executar o spla
 
 ### worklet
 
- Os worklets são funções simples que nos permitem executar código JavaScript de forma síncrona na IU fio. Normalmente, os worklets retornam uma propriedade de estilo do componente React. Um worklet é acionado por qualquer mudança no valor compartilhado ao qual faz referência.
+ Os worklets são funções simples que nos permitem executar código JavaScript de forma síncrona na IU. Normalmente, os worklets retornam uma propriedade de estilo do componente React. Um worklet é acionado por qualquer mudança no valor compartilhado ao qual faz referência.
 
 ###  runOnJS
 
