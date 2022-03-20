@@ -109,6 +109,8 @@ Em construção...
 
 [33-AnimandoSplash](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/33-AnimandoSplash)
 
+[34-WorkletAnimation](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/34-WorkletAnimation)
+
 </details>
 
 
