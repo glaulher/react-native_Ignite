@@ -1,11 +1,19 @@
 import React from 'react';
 import { useNavigation, useRoute } from '@react-navigation/native';
 
+import Animated, {
+  Extrapolate,
+  interpolate,
+  useAnimatedScrollHandler,
+  useAnimatedStyle,
+  useSharedValue,
+} from 'react-native-reanimated';
+
+import { StatusBar } from 'react-native';
 import {
   Container,
   Header,
   CarImages,
-  Content,
   Details,
   Description,
   Brand,
@@ -35,11 +43,27 @@ export function CarDetails() {
   const route = useRoute();
   const { car } = route.params as Params;
 
+  const scrollY = useSharedValue(0);
+  const scrollHandler = useAnimatedScrollHandler(event => {
+    scrollY.value = event.contentOffset.y;
+  });
+
   function handleConfirmRental() {
     navigation.navigate('Scheduling', {
       car,
     });
   }
+
+  const headerStyleAnimation = useAnimatedStyle(() => {
+    return {
+      height: interpolate(
+        scrollY.value,
+        [0, 200],
+        [200, 70],
+        Extrapolate.CLAMP,
+      ),
+    };
+  });
 
   function handleBack() {
     navigation.goBack();
@@ -47,15 +71,30 @@ export function CarDetails() {
 
   return (
     <Container>
-      <Header>
-        <BackButton color="" onPress={() => handleBack()} />
-      </Header>
+      <StatusBar
+        barStyle="dark-content"
+        backgroundColor="transparent"
+        translucent
+      />
 
-      <CarImages>
-        <ImageSlider imagesUrl={car.photos} />
-      </CarImages>
+      <Animated.View style={[headerStyleAnimation]}>
+        <Header>
+          <BackButton color="" onPress={() => handleBack()} />
+        </Header>
 
-      <Content>
+        <CarImages>
+          <ImageSlider imagesUrl={car.photos} />
+        </CarImages>
+      </Animated.View>
+
+      <Animated.ScrollView
+        contentContainerStyle={{
+          padding: 24,
+          alignItems: 'center',
+        }}
+        showsHorizontalScrollIndicator={false}
+        onScroll={scrollHandler}
+      >
         <Details>
           <Description>
             <Brand>{car.brand}</Brand>
@@ -77,14 +116,18 @@ export function CarDetails() {
             />
           ))}
         </Accessories>
-        <About>{car.about}</About>
-      </Content>
+        <About>
+          {car.about} {car.about} {car.about} {car.about}
+        </About>
+      </Animated.ScrollView>
 
       <Footer>
         <Button
           title="Escolher período do aluguel"
           color=""
           onPress={() => handleConfirmRental()}
+          enabled
+          loading={false}
         />
       </Footer>
     </Container>

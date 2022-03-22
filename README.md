@@ -111,6 +111,8 @@ Em construção...
 
 [34-WorkletAnimation](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/34-WorkletAnimation)
 
+[35-AnimandoScroll](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/35-AnimandoScroll)
+
 </details>
 
 

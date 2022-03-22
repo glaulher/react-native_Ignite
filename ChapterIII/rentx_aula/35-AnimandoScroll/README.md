@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center"> 
-  🚀Animando Splash🚀
+  🚀Animando Scroll🚀
 </h1>
 
 <p align="center" >
@@ -20,7 +20,7 @@
 
 ## 📋 Sobre
 
-<img align="center" src="https://d33wubrfki0l68.cloudfront.net/554c3b0e09cf167f0281fda839a5433f2040b349/ecfc9/img/header_logo.svg" width="22" /> Animando Splash, Chapter 03, Ignite (Rocketseat) - React Native.
+<img align="center" src="https://d33wubrfki0l68.cloudfront.net/554c3b0e09cf167f0281fda839a5433f2040b349/ecfc9/img/header_logo.svg" width="22" /> Animando Scroll, Chapter 03, Ignite (Rocketseat) - React Native.
 
 ---
 
@@ -35,7 +35,7 @@ Para clonar e executar este aplicativo, você precisará de [Git](https://git-sc
 $ git clone https://github.com/glaulher/react-native_Ignite.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd react-native_Ignite/ChapterIII/rentx_aula/33-AnimandoSplash/rentx/
+$ cd react-native_Ignite/ChapterIII/rentx_aula/35-AnimandoScroll/rentx/
 ```
 
 ### 🎲 Rodando a Aplicação
@@ -134,26 +134,6 @@ Abra app.json e adicione o seguinte dentro do campo "expo", para executar o spla
       "backgroundColor": "#1B1B1F"
     }
 
-```
-
-### worklet
-
- Os worklets são funções simples que nos permitem executar código JavaScript de forma síncrona na IU fio. Normalmente, os worklets retornam uma propriedade de estilo do componente React. Um worklet é acionado por qualquer mudança no valor compartilhado ao qual faz referência.
-
-###  runOnJS
-
- runOnJS retorna uma função que pode ser executada com segurança a partir do thread da interface do usuário.
-
-Exemplo:
-
-```javascript
-  useEffect(() => {
-    splashAnimation.value = withTiming(50, { duration: 1000 }, () => {
-      'worklet';
-
-      runOnJS(startApp)();
-    });
-  }, []);
 ```
 
 ---
