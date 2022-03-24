@@ -113,6 +113,8 @@ Em construção...
 
 [35-AnimandoScroll](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/35-AnimandoScroll)
 
+[36-MelhorandoScroll](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/36-MelhorandoScroll)
+
 </details>
 
 
