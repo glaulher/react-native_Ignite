@@ -115,6 +115,8 @@ Em construção...
 
 [36-MelhorandoScroll](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/36-MelhorandoScroll)
 
+[37-GestosDoUsuario](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/37-GestosDoUsuario)
+
 </details>
 
 
