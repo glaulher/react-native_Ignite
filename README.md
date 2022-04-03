@@ -119,6 +119,8 @@ Em construção...
 
 [38-PrevinirVoltarSplash](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/38-PrevinirVoltarSplash)
 
+[39-Lottie](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIII/rentx_aula/39-Lottie)
+
 </details>
 
 
