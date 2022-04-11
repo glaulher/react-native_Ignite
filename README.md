@@ -130,6 +130,8 @@ Em construção...
 
 [1-TelaDeLogin](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/1-TelaDeLogin)
 
+[2-TipandoIcones](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/2-TipandoIcones)
+
 </details>
 
 
