@@ -132,6 +132,8 @@ Em construção...
 
 [2-TipandoIcones](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/2-TipandoIcones)
 
+[3-InputDeEmail](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/3-InputDeEmail)
+
 </details>
 
 
