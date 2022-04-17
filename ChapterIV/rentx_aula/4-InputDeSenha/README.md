@@ -114,7 +114,7 @@ $ expo install lottie-react-native
 ```
 ✔️ Notas:
 
-Utilizei o TouchableOpacity com o activeOpacity={0.7} no botão para exibir senhas, pois o efeito ficou melhor para mim ao clicar no olho.
+Utilizei o TouchableOpacity com o activeOpacity={0.7} no botão para exibir a senha, pois o efeito ficou melhor para mim ao clicar no olho.
 Para input de senha é interessante utilizar o seguinte parâmetro:
 
 - secureTextEntry={isPasswordVisible} - mostra ou desabilita a exibição do campo, a variável isPasswordVisible no exemplo é um boolean.
