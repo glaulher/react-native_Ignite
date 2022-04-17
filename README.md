@@ -134,6 +134,8 @@ Em construção...
 
 [3-InputDeEmail](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/3-InputDeEmail)
 
+[4-InputDeSenha](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/4-InputDeSenha)
+
 </details>
 
 
