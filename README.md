@@ -136,6 +136,8 @@ Em construção...
 
 [4-InputDeSenha](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/4-InputDeSenha)
 
+[5-AcessibilidadeEmFormulario](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/5-AcessibilidadeEmFormulario)
+
 </details>
 
 
