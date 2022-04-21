@@ -140,6 +140,8 @@ Em construção...
 
 [6-AcessibilidadeEmInput](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/6-AcessibilidadeEmInput)
 
+[7-Refactor](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/7-Refactor)
+
 </details>
 
 
