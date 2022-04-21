@@ -115,7 +115,7 @@ $ expo install lottie-react-native
 ✔️ Notas:
 
 
-Para detectar se o teclado do aparelho está visível:
+Para verificar se o teclado do aparelho está visível:
 
 ```javascript
   const [isKeyboardVisible, setKeyboardVisible] = useState(false);
@@ -140,7 +140,7 @@ Para detectar se o teclado do aparelho está visível:
     };
   }, []);
 ```
-Com isso, fiz uma validação para oculta o Title quando o teclado estivesse a mostra:
+Com isso, fiz uma validação para ocultar o Title quando o teclado estivesse a mostra:
 
 ```javascript
 <Header>
