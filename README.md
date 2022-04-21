@@ -138,6 +138,8 @@ Em construção...
 
 [5-AcessibilidadeEmFormulario](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/5-AcessibilidadeEmFormulario)
 
+[6-AcessibilidadeEmInput](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/6-AcessibilidadeEmInput)
+
 </details>
 
 
