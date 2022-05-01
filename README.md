@@ -142,6 +142,8 @@ Em construção...
 
 [7-Refactor](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/7-Refactor)
 
+[8-ValidacaoFormulario](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/8-ValidacaoFormulario)
+
 </details>
 
 
