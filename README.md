@@ -144,6 +144,10 @@ Em construção...
 
 [8-ValidacaoFormulario](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/8-ValidacaoFormulario)
 
+[9-PrimeiroStep](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/9-PrimeiroStep)
+
+[10-SegundoStep](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/10-SegundoStep)
+
 </details>
 
 
