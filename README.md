@@ -148,6 +148,8 @@ Em construção...
 
 [10-SegundoStep](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/10-SegundoStep)
 
+[11-ValidacaoDoCadastro](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/11-ValidacaoDoCadastro)
+
 </details>
 
 
