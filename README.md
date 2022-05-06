@@ -150,6 +150,8 @@ Em construção...
 
 [11-ValidacaoDoCadastro](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/11-ValidacaoDoCadastro)
 
+[12-FlexbilizandoInterfaces](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/12-FlexbilizandoInterfaces)
+
 </details>
 
 
