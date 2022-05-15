@@ -152,7 +152,7 @@ Em construção...
 
 [12-FlexbilizandoInterfaces](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/12-FlexbilizandoInterfaces)
 
-[13-BackendDoApp](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/13-BackendDoApp)
+[13-BackendDoAppEcadastroDoUsuario](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/13-BackendDoAppEcadastroDoUsuario)
 
 </details>
 
