@@ -117,14 +117,14 @@ $ yarn add yup
 ```
 ✔️ Notas:
 
-Centralização das autenticações:
+## Centralização das autenticações:
                     
-↱ Armazena informação do user, compartilha com a aplicação.
-context 
+↱ Armazena informação do user, compartilha com a aplicação.<br />
+**context** 
 
 auth ➔ hooks ➔ context 
           
-hooks 
+**hooks** <br />
 ↳ centraliza as autenticações.          
 
 ---
