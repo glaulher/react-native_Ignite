@@ -118,10 +118,14 @@ $ yarn add yup
 ✔️ Notas:
 
 Centralização das autenticações:
+                    
+↱ Armazena informação do user, compartilha com a aplicação.
+context 
 
-                    ↱ Armazena informação do user, compartilha com a aplicação.
 auth ➔ hooks ➔ context 
-          ↳ centraliza as autenticações.
+          
+hooks 
+↳ centraliza as autenticações.          
 
 ---
 
