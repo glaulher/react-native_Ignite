@@ -154,7 +154,7 @@ Em construção...
 
 [13-BackendDoAppEcadastroDoUsuario](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/13-BackendDoAppEcadastroDoUsuario)
 
-[14-Autenticacao](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/14-Autenticacao)
+[14-AutenticacaoElistandoCarrosDoBackend](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/14-AutenticacaoElistandoCarrosDoBackend)
 
 </details>
 
