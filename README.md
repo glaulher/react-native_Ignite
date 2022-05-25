@@ -156,6 +156,12 @@ Em construção...
 
 [14-AutenticacaoElistandoCarrosDoBackend](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/14-AutenticacaoElistandoCarrosDoBackend)
 
+[15-RotasPrivadasEpublicas](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/15-RotasPrivadasEpublicas)
+
+[16-CustomizandoBottomTab](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/16-CustomizandoBottomTab)
+
+[17-ConfiguracaoBancoAndroid](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/17-ConfiguracaoBancoAndroid)
+
 </details>
 
 
