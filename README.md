@@ -162,6 +162,8 @@ Em construção...
 
 [17-ConfiguracaoBancoAndroid](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/17-ConfiguracaoBancoAndroid)
 
+[18-EstruturaDaBaseDeDados](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/18-EstruturaDaBaseDeDados)
+
 </details>
 
 
