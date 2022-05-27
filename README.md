@@ -164,6 +164,8 @@ Em construção...
 
 [18-EstruturaDaBaseDeDados](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/18-EstruturaDaBaseDeDados)
 
+[19-PersistindoDados](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/19-PersistindoDados)
+
 </details>
 
 
