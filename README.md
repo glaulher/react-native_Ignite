@@ -166,6 +166,8 @@ Em construção...
 
 [19-PersistindoDados](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/19-PersistindoDados)
 
+[20-MemoryLeak](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/20-MemoryLeak)
+
 </details>
 
 
