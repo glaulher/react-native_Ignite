@@ -168,6 +168,8 @@ Em construção...
 
 [20-MemoryLeak](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/20-MemoryLeak)
 
+[21-HeaderDoProfile](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/21-HeaderDoProfile)
+
 </details>
 
 
