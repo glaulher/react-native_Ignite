@@ -170,6 +170,8 @@ Em construção...
 
 [21-HeaderDoProfile](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/21-HeaderDoProfile)
 
+[22-SessoesDoCadastro](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/22-SessoesDoCadastro)
+
 </details>
 
 
