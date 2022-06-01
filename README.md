@@ -172,6 +172,8 @@ Em construção...
 
 [22-SessoesDoCadastro](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/22-SessoesDoCadastro)
 
+[23-InputDoCadastro](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/23-InputDoCadastro)
+
 </details>
 
 
