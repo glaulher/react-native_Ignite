@@ -174,6 +174,8 @@ Em construção...
 
 [23-InputDoCadastro](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/23-InputDoCadastro)
 
+[24-AlbunsDeFotos](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/24-AlbunsDeFotos)
+
 </details>
 
 
