@@ -176,6 +176,8 @@ Em construção...
 
 [24-AlbunsDeFotos](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/24-AlbunsDeFotos)
 
+[25-SignOut](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/25-SignOut)
+
 </details>
 
 
