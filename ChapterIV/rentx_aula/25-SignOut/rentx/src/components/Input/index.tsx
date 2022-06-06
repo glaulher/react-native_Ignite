@@ -9,7 +9,6 @@ import { Container, IconContainer, InputText } from './styles';
 interface Props extends TextInputProps {
   iconName: React.ComponentProps<typeof Feather>['name'];
   value?: string;
-  accessibilityRole?: undefined;
 }
 
 export function Input({ iconName, value, ...rest }: Props) {

@@ -15,8 +15,6 @@ import {
 interface Props extends TextInputProps {
   iconName: React.ComponentProps<typeof Feather>['name'];
   value: string;
-  // eslint-disable-next-line react/require-default-props
-  accessibilityRole?: undefined;
 }
 
 export function PasswordInput({ iconName, value, ...rest }: Props) {

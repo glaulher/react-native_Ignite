@@ -130,7 +130,33 @@ $ expo install expo-image-picker
 
 ✔️ Notas:
 
+Ao entrar no index do componente Input e PasswordInput o <InputText> ficou acusando o erro Types of property 'accessibilityRole' are incompatible.
 
+Eu havia tirado o erro, modificando a interface conforme abaixo nos index dos component Input e PasswordInput:
+
+```javascript
+
+interface Props extends TextInputProps {
+  iconName: React.ComponentProps<typeof Feather>['name'];
+  value?: string;
+  accessibilityRole?: undefined;
+}
+```
+Fui informado, que isso ocorre por conta de incompatibilidade entre a tipagem que o Styled Components gera e a que o TextInput espera. O correto é alterar o formato:
+
+```javascript
+export const InputText = styled.TextInput<Props>``;
+```
+
+Para:
+
+```javascript
+import { TextInput } from 'react-native';
+
+export const InputText = styled(TextInput)<Props>``;
+```
+
+Fazendo essas alterações, funcionou corretamente.
 
 ---
 
