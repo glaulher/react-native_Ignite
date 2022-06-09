@@ -182,6 +182,8 @@ Em construção...
 
 [27-ConfirmacaoDeSignOut](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/27-ConfirmacaoDeSignOut)
 
+[28-TabelaDeCarros](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/28-TabelaDeCarros)
+
 </details>
 
 
