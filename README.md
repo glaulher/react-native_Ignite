@@ -180,6 +180,8 @@ Em construção...
 
 [26-AtualizandoPerfil](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/26-AtualizandoPerfil)
 
+[27-ConfirmacaoDeSignOut](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/27-ConfirmacaoDeSignOut)
+
 </details>
 
 
