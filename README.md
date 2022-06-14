@@ -184,6 +184,8 @@ Em construção...
 
 [28-TabelaDeCarros](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/28-TabelaDeCarros)
 
+[29-VerificandoAConexao](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/29-VerificandoAConexao)
+
 </details>
 
 
