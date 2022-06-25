@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center"> 
-  🚀Verificando A Conexão🚀
+  🚀Sincronizando Usuário e fix🚀
 </h1>
 
 <p align="center" >
