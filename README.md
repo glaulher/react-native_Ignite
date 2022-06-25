@@ -186,6 +186,8 @@ Em construção...
 
 [29-VerificandoAConexao](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/29-VerificandoAConexao)
 
+[30-SincronizandoUsuarioEfix](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/30-SincronizandoUsuarioEfix)
+
 </details>
 
 
