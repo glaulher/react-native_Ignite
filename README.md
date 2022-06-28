@@ -188,6 +188,8 @@ Em construção...
 
 [30-SincronizandoUsuarioEfix](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/30-SincronizandoUsuarioEfix)
 
+[31-MostrandoUsuarioOffLine](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/31-MostrandoUsuarioOffLine)
+
 </details>
 
 
