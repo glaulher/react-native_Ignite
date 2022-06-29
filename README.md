@@ -190,6 +190,8 @@ Em construção...
 
 [31-MostrandoUsuarioOffLine](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/31-MostrandoUsuarioOffLine)
 
+[32-CacheDeImagem](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/32-CacheDeImagem)
+
 </details>
 
 
