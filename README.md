@@ -192,6 +192,8 @@ Em construção...
 
 [32-CacheDeImagem](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/32-CacheDeImagem)
 
+[33-Agendamento](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/33-Agendamento)
+
 </details>
 
 
