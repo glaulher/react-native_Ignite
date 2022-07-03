@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "strict": true,
+    "experimentalDecorators": true,
+  },
+  "extends": "expo/tsconfig.base"
+}
