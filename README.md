@@ -194,6 +194,8 @@ Em construção...
 
 [33-Agendamento](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/33-Agendamento)
 
+[34-ListandoCarros](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterIV/rentx_aula/34-ListandoCarros)
+
 </details>
 
 
