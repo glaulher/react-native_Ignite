@@ -137,7 +137,7 @@ yarn add react-native-fast-image
 ✔️ Notas:
 
 Toda a requisição, o token vai no cabeçalho da aplicação, sendo assim, a rota ja sabe de qual o usuário os carros terá que listar.
-Precisei adicionar dia na data para ser exibida corretamente, pois havia problema de um dia a menos utilizei o  getPlatformDate que foi criado em utils conforme abaixo:
+Precisei adicionar dia na data para ser exibida corretamente, pois havia problema de um dia a menos, utilizei o  getPlatformDate que foi criado em utils conforme abaixo:
 
 ```javascript
 useEffect(() => {
