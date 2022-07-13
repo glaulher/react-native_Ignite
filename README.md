@@ -202,7 +202,7 @@ Em construção...
 <summary><span style="color:#58A6FF">Chapter V</span>.</summary>
 <br>
 
-[01-Introducao](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/rentx_aula/01-Introducao)
+[01-Introducao](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/gofinances_aulas/01-Introducao)
 
 </details>
 
