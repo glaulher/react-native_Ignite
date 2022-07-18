@@ -44,8 +44,8 @@ $ cd react-native_Ignite/ChapterV/gofinances_aulas/04-Seletores/gofinances
 # Instale as dependências
 $ yarn install ou npm install
 
-# Execute o expo
-$ expo start
+# Execute o teste
+$ yarn test
 ```
 
 ### ⏬ Pacotes para os testes
