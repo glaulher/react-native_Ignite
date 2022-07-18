@@ -208,6 +208,8 @@ Em construção...
 
 [03-PrimeiroTeste](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/gofinances_aulas/03-PrimeiroTeste)
 
+[04-Seletores](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/gofinances_aulas/04-Seletores)
+
 </details>
 
 
