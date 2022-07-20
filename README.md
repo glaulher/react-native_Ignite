@@ -214,6 +214,8 @@ Em construção...
 
 [06-AbstraindoConfiguracoes](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/gofinances_aulas/06-AbstraindoConfiguracoes)
 
+[07-TesteEmComponentes](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/gofinances_aulas/07-TesteEmComponentes)
+
 </details>
 
 
