@@ -65,6 +65,7 @@ yarn add @types/jest -D
 ```
 
 ✔️ Notas:
+<br/>
 Nesta aula foi realizado a criação do arquivo de teste na mesma pasta ao que se quer testar, no caso desta aula, foi criado o input.spec.tsx dentro da pasta components/Form/Input.
 ---
 
