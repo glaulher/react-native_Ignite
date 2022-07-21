@@ -216,6 +216,8 @@ Em construção...
 
 [07-TesteEmComponentes](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/gofinances_aulas/07-TesteEmComponentes)
 
+[08-TestesComContexto](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/gofinances_aulas/08-TestesComContexto)
+
 </details>
 
 
