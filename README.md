@@ -218,6 +218,8 @@ Em construção...
 
 [08-TestesComContexto](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/gofinances_aulas/08-TestesComContexto)
 
+[09-TestesEmHooks](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/gofinances_aulas/09-TestesEmHooks)
+
 </details>
 
 
