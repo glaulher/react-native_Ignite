@@ -71,7 +71,10 @@ yarn add --dev @testing-library/react-hooks
 
 ## ✔️ Notas:
 
-Nesta aula, os testes dão erro que serão corrigidos na próxima aula.
+Nesta aula, os testes dão erro ( Erro TypeError: Cannot read properties of undefined (reading 'includes')
+), segue solução:
+
+O expo está na versão 43 e o jest-expo estava na versão 45 ( Passei para a 43), além disso, conforme orientado no fórum, passei o jest para a versão 26.
 
 ---
 

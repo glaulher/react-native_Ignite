@@ -220,6 +220,8 @@ Em construção...
 
 [09-TestesEmHooks](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/gofinances_aulas/09-TestesEmHooks)
 
+[10-UtilizandoMocks](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/gofinances_aulas/10-UtilizandoMocks)
+
 </details>
 
 

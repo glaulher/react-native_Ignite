@@ -1,44 +1,46 @@
-// import { renderHook, act } from '@testing-library/react-hooks';
+import { renderHook, act } from '@testing-library/react-hooks';
 
-// import { AuthProvider, useAuth } from './auth';
+import { AuthProvider, useAuth } from './auth';
 
-// jest.mock('expo-auth-session', () => {
-//   return {
-//     startAsync: () => {
-//       return {
-//         type: 'success',
-//         params: {
-//           access_token: 'google-token',
-//         },
-//       };
-//     },
-//   };
-// });
+jest.mock('expo-auth-session', () => {
+  return {
+    startAsync: () => {
+      return {
+        type: 'success',
+        params: {
+          access_token: 'google-token',
+        },
+      };
+    },
+  };
+});
 
-// describe('Auth Hook', () => {
-//   it('shold be able to sign in with Google account existing', async () => {
-//     global.fetch = jest.fn(() =>
-//       Promise.resolve({
-//         json: () =>
-//           Promise.resolve({
-//             id: `userInfo.id`,
-//             email: `userInfo.email`,
-//             name: `userInfo.given_name`,
-//             photo: `userInfo.picture`,
-//             locale: `userInfo.locale`,
-//             verified_email: `userInfo.verified_email`,
-//           }),
-//       }),
-//     ) as jest.Mock;
+describe('Auth Hook', () => {
+  it('shold be able to sign in with Google account existing', async () => {
+    global.fetch = jest.fn(() =>
+      Promise.resolve({
+        json: () =>
+          Promise.resolve({
+            id: `userInfo.id`,
+            email: `userInfo.email`,
+            name: `userInfo.given_name`,
+            photo: `userInfo.picture`,
+            locale: `userInfo.locale`,
+            verified_email: `userInfo.verified_email`,
+          }),
+      }),
+    ) as jest.Mock;
 
-//     const { result } = renderHook(() => useAuth(), {
-//       wrapper: AuthProvider,
-//     });
-//     await act(() => result.current.signInWithGoogle());
+    const { result } = renderHook(() => useAuth(), {
+      wrapper: AuthProvider,
+    });
+    await act(() => result.current.signInWithGoogle());
 
-//     expect(result.current.user).toBeTruthy();
-//   });
-// });
+    expect(result.current.user).toBeTruthy();
+  });
+});
+
+/*
 
 // Essa lib foi instalada para realizar o mock do fetch.
 import fetchMock from 'jest-fetch-mock';
@@ -89,3 +91,5 @@ it('should be able to sign in with Google account existing', async () => {
 
   expect(result.current.user.email).toBe('rodrigo.goncalves@rocketseat.team');
 });
+
+*/
