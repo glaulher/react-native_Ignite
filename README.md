@@ -224,6 +224,7 @@ Em construção...
 
 [11-MocksPersonalizados](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/gofinances_aulas/11-MocksPersonalizados)
 
+[12-DisparandoEventosNosTestes](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/gofinances_aulas/12-DisparandoEventosNosTestes)
 
 </details>
 
