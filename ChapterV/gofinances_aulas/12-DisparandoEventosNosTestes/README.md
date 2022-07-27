@@ -77,6 +77,9 @@ yarn add --dev @testing-library/react-hooks
 Foi necessário envolver os testes do Register com NavigationContainer para não ocorrer o erro no navigate:
 
 ```javascript
+import { NavigationContainer } from '@react-navigation/native';
+...
+
 const Providers: React.FC = ({ children }) => (
   <NavigationContainer>
     <ThemeProvider theme={theme}>{children}</ThemeProvider>
