@@ -228,6 +228,8 @@ Em construção...
 
 [13-TestesAssincronos](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/gofinances_aulas/13-TestesAssincronos)
 
+[14-CoberturaDeCodigo](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/gofinances_aulas/14-CoberturaDeCodigo)
+
 </details>
 
 

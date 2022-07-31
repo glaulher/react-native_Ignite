@@ -7,7 +7,8 @@
     "ios": "expo run:ios",
     "web": "expo start --web",
     "start": "react-native start",
-    "test": "jest --watch --all --runInBand --detectOpenHandles"
+    "test": "jest --watch --all --runInBand --detectOpenHandles",
+    "test:c" : "jest --coverage"
   },
   "dependencies": {
     "@expo-google-fonts/poppins": "^0.2.0",
