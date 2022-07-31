@@ -74,7 +74,7 @@ yarn add --dev @testing-library/react-hooks
 
 ## ✔️ Notas:
 
-Foi necessário editar o jest.config.js, incluindo o jest[coveragereporters](coverageReporters https://jestjs.io/pt-BR/docs/configuration#coveragereporters-arraystring--string-options
+Foi necessário editar o jest.config.js, incluindo o jest [coveragereporters](coverageReporters https://jestjs.io/pt-BR/docs/configuration#coveragereporters-arraystring--string-options
 ) adicionando a linha ao arquivo conforme abaixo:
 
 ```javascript
