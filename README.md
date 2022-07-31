@@ -226,6 +226,8 @@ Em construção...
 
 [12-DisparandoEventosNosTestes](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/gofinances_aulas/12-DisparandoEventosNosTestes)
 
+[13-TestesAssincronos](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/gofinances_aulas/13-TestesAssincronos)
+
 </details>
 
 
