@@ -230,6 +230,9 @@ Em construção...
 
 [14-CoberturaDeCodigo](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/gofinances_aulas/14-CoberturaDeCodigo)
 
+[15-ConfiguracaoDoTeste2E2AndPrimeiroTesteE2E](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/myskills_aulas/15-ConfiguracaoDoTeste2E2AndPrimeiroTesteE2E)
+
+
 </details>
 
 
