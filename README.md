@@ -232,6 +232,7 @@ Em construção...
 
 [15-ConfiguracaoDoTeste2E2AndPrimeiroTesteE2E](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/myskills_aulas/15-ConfiguracaoDoTeste2E2AndPrimeiroTesteE2E)
 
+[16-TestesInterativos](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/myskills_aulas/16-TestesInterativos)
 
 </details>
 
