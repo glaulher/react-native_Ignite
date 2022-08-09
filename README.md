@@ -234,7 +234,7 @@ Em construção...
 
 [16-TestesInterativos](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/myskills_aulas/16-TestesInterativos)
 
-[17-Fundamentos](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/myskills_aulas/17-Fundamentos)
+[17-Fundamentos](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/performanceapp_aula/17-Fundamentos)
 </details>
 
 
