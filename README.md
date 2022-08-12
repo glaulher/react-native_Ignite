@@ -237,7 +237,7 @@ Em construção...
 [17-Fundamentos](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/performanceapp_aula/17-Fundamentos)
 
 
-[18-Otimazacoes](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/performanceapp_aula/18-Otimazacoess)
+[18-Otimazacoes](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/performanceapp_aula/18-Otimazacoes)
 
 </details>
 
