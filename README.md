@@ -240,7 +240,7 @@ Em construção...
 [18-Otimazacoes](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/performanceapp_aula/18-Otimazacoes)
 
 [19-useMemo](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/performanceapp_aula/19-useMemo)
-19-useMemo
+
 </details>
 
 ---
