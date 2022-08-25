@@ -58,9 +58,9 @@ $ yarn add json-server -D
 
 $ npm install -g react-devtools
 
+// biblioteca para testar o react-native-bundle-visualizer
 $ yarn add lodash
 
-// biblioteca para testar o react-native-bundle-visualizer
 $ yarn add -D @types/lodash 
 
 $ yarn add --dev react-native-bundle-visualizer
