@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center"> 
-  🚀useMemo🚀
+  🚀useCallback Performando Listas Bundle SourceMap🚀
 </h1>
 
 <p align="center" >
@@ -20,7 +20,7 @@
 
 ## 📋 Sobre
 
-<img align="center" src="https://d33wubrfki0l68.cloudfront.net/554c3b0e09cf167f0281fda839a5433f2040b349/ecfc9/img/header_logo.svg" width="22" /> useMemo, Chapter 05, Ignite (Rocketseat) - React Native.
+<img align="center" src="https://d33wubrfki0l68.cloudfront.net/554c3b0e09cf167f0281fda839a5433f2040b349/ecfc9/img/header_logo.svg" width="22" /> useCallback Performando Listas Bundle SourceMap, Chapter 05, Ignite (Rocketseat) - React Native.
 
 ---
 
@@ -35,7 +35,7 @@ Para clonar e executar este aplicativo, você precisará de [Git](https://git-sc
 $ git clone https://github.com/glaulher/react-native_Ignite.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd react-native_Ignite/ChapterV/performanceapp_aula/19-useMemo/performanceapp
+$ cd react-native_Ignite/ChapterV/performanceapp_aula/20-useCallbackPerformandoListasBundleSourceMap/performanceapp
 
 ```
 

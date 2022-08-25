@@ -241,6 +241,8 @@ Em construção...
 
 [19-useMemo](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/performanceapp_aula/19-useMemo)
 
+[20-useCallbackPerformandoListasBundleSourceMap](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterV/performanceapp_aula/20-useCallbackPerformandoListasBundleSourceMap)
+
 </details>
 
 ---
