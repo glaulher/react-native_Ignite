@@ -245,6 +245,17 @@ Em construção...
 
 </details>
 
+<details>
+<summary><span style="color:#58A6FF">Chapter VI</span>.</summary>
+<br>
+
+[01-Splash Screen Android](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterVI/myskills_aulas/Android/myskills)
+
+
+
+</details>
+
+
 ---
 
 ## 🚀 Tecnologias Utilizadas
