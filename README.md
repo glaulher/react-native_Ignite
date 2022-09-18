@@ -251,7 +251,7 @@ Em construção...
 
 [01-SplashScreenAndroid](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterVI/myskills_aulas/01-Android/)
 
-[02-BuildComExpo](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterVI/gofinances_aulas/BuildComExpo/gofinances)
+[02-BuildComExpo](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterVI/gofinances_aulas/02-BuildComExpo)
 
 </details>
 
