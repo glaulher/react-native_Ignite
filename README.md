@@ -249,9 +249,9 @@ Em construção...
 <summary><span style="color:#58A6FF">Chapter VI</span>.</summary>
 <br>
 
-[01-Splash Screen Android](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterVI/myskills_aulas/Android/)
+[01-SplashScreenAndroid](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterVI/myskills_aulas/01-Android/)
 
-
+[02-BuildComExpo](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterVI/gofinances_aulas/BuildComExpo/gofinances)
 
 </details>
 

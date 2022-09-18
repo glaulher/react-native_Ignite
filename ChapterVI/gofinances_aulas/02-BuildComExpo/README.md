@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center"> 
-  🚀Testes Interativos🚀
+  🚀Build Com Expo🚀
 </h1>
 
 <p align="center" >
@@ -20,7 +20,7 @@
 
 ## 📋 Sobre
 
-<img align="center" src="https://d33wubrfki0l68.cloudfront.net/554c3b0e09cf167f0281fda839a5433f2040b349/ecfc9/img/header_logo.svg" width="22" /> Testes Interativos, Chapter 05, Ignite (Rocketseat) - React Native.
+<img align="center" src="https://d33wubrfki0l68.cloudfront.net/554c3b0e09cf167f0281fda839a5433f2040b349/ecfc9/img/header_logo.svg" width="22" /> Build Com Expo, Chapter 06, Ignite (Rocketseat) - React Native.
 
 ---
 
@@ -35,7 +35,7 @@ Para clonar e executar este aplicativo, você precisará de [Git](https://git-sc
 $ git clone https://github.com/glaulher/react-native_Ignite.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd react-native_Ignite/ChapterVI/myskills_aulas/Android/myskills
+$ cd react-native_Ignite/ChapterVI/gofinances_aulas/BuildComExpo/gofinances
 
 ```
 
@@ -46,19 +46,23 @@ $ cd react-native_Ignite/ChapterVI/myskills_aulas/Android/myskills
 $ yarn install ou npm install
 
 # Execute o projeto
-$ yarn start
+$ yarn expo start
 ```
 
-### ⏬ Pacotes para splash
+### ⏬ Build
 
 ```bash
-$ cd myskills 
+# Se estiver em um diretório fora da pasta do projeto
+$ cd react-native_Ignite/ChapterVI/gofinances_aulas/BuildComExpo/gofinances
 
-$ yarn add react-native-splash-screen 
+$ npm install -g eas-cli
 
-//Gerando a chave
+$ eas login
 
-keytool -genkey -v -keystore production-android.keystore -alias production-android -keyalg RSA -keysize 2048 -validity 10000;
+$ eas build:configure
+
+# Escolhi apenas criar a build para android
+$ eas build --platform android
 
 ```
 
@@ -76,7 +80,7 @@ Passo a passo para a configuração da splash screen:
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-- [Detox](https://github.com/wix/Detox)
+- [Expo](https://expo.dev/)
 - [React Native](https://reactnative.dev)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [TypeScript](https://www.typescriptlang.org)
