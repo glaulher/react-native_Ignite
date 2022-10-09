@@ -253,6 +253,8 @@ Em construção...
 
 [02-BuildComExpo](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterVI/gofinances_aulas/02-BuildComExpo)
 
+[CI /CD](https://github.com/glaulher/react-native_Ignite/tree/main/ChapterVI/myskills_aulas/02-CICD)
+
 </details>
 
 
