@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "appRentexCars",
+    "slug": "appRentexCars",
+    "version": "1.0.0",
+    "splash": {
+      "backgroundColor": "#1B1B1F",
+      "image": "assets/splash.png"
+    },
+    "jsEngine": "hermes",
+    "ios": {
+      "jsEngine": "jsc"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "7b478234-ffbc-4f54-84bd-ab14f2436f3d"
+      }
+    }
+  }
+}
